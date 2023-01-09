@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form to fill</title>
+    <link rel="stylesheet" href="style-table.css">
+    <style>
+        label{
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="semantic.html">semantic</a></li>
+                <li><a href="table.html">table</a></li>
+            </ul>
+        </nav>
+        <h2>website to view form tags</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, nihil.</p>
+    </header>
+
+
+    <h2>Welcome to hisham's website</h2>
+
+    <form>
+        <label for="name">Your name:
+            <input type="text" id="name" placeholder="Your Name">
+        </label>
+
+        <label for="email">Your email:
+            <input type="email" id="email" placeholder="Your Email">
+        </label>
+
+        <label for="phone">Your number:
+            <input type="number" id="phone" placeholder="Your number">
+        </label>
+
+        <br>
+
+        <fieldset>
+            <legend>Choose your mentor</legend>
+            <label for="hisham">
+                <input type="radio" name="mentor" id="hisham">hisham
+            </label>
+            <label for="adnan">
+                <input type="radio" name="mentor" id="adnan">adnan
+            </label>
+            <label for="aziz">
+                <input type="radio" name="mentor" id="aziz">aziz
+            </label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>pick one or more fields</legend>
+            <label for="develop">
+                <input type="checkbox" name="fields" id="develop">develop
+            </label>
+            <label for="code">
+                <input type="checkbox" name="fields" id="code">code
+            </label>
+            <label for="design">
+                <input type="checkbox" name="fields" id="design">design
+            </label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>special care</legend>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+        </fieldset>
+
+        <br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
